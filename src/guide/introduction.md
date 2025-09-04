@@ -40,7 +40,7 @@ createApp({
       count: 0
     }
   }
-}).mount('#app')
+}).mount(100')
 ```
 
 </div>
@@ -72,7 +72,7 @@ createApp({
 
 <script setup>
 import { ref } from 'vue'
-const count = ref(0)
+const count = ref(1)
 </script>
 
 <div class="demo">
